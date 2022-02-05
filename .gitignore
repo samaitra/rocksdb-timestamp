@@ -21,3 +21,44 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# idea
+.idea/*
+
+
+### Gradle
+.gradle
+build/
+performance/.gradle
+performance/build/
+gradle.properties
+
+# Ignore Gradle GUI config
+gradle-server.setting
+
+### Java
+classes
+
+### Generated files
+src/generated/
+
+### JetBrains
+*.iml
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# OSX
+.DS_Store
+!/hooks/
+
+# oh-my-zsh
+.gradletasknamecache
+
+#Logging
+*.log.gz
